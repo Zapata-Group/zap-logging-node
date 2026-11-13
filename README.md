@@ -4,11 +4,6 @@ Shared structured-logging library for zap Node services, built on pino. See
 [../compliance/policy/logging-libraries.md](../compliance/policy/logging-libraries.md) for
 the full behavior contract (L-1...L-13).
 
-This is the Node package for zap's logging policy. The Python equivalent (`zap_logging`) lives
-in the separate [`zap-logging-py`](https://github.com/Zapata-Group/zap-logging-py) repo — the two
-were split out of a shared mono-repo because npm has no native subdirectory-pin support for git
-dependencies (only pip does), so a single repo couldn't serve both `github:` install forms.
-
 ## Install
 
 ```

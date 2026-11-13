@@ -1,6 +1,6 @@
 'use strict';
 
-// Shared redaction key/pattern set - single source of truth (mirrored by python/zap_logging/redaction.py).
+// Shared redaction key/pattern set - single source of truth.
 
 const SENSITIVE_KEYS = [
   'password', 'new_password', 'old_password', 'passwd', 'pwd', 'secret',
